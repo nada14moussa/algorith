@@ -1,9 +1,13 @@
 ALGORITHM algorithm
 VAR
-count:INTEGER:=0;
+count,i:INTEGER:=0;
 n:STRING:="the nomber of characters";
 BEGIN
-count:=length(n);
+FOR i FROM 0 TO length(n) STEP 1  DO
+    IF (n[i] != " ") THEN
+    count:=count+1;
+END_IF
+END_FOR
 Write(count)
 END
 
