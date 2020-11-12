@@ -1,0 +1,10 @@
+ALGORITHM algorithm
+VAR
+count:INTEGER:=0;
+n:STRING:="the nomber of characters";
+BEGIN
+count:=length(n);
+Write(count)
+END
+
+

@@ -1,0 +1,13 @@
+ALGORITHM algorithm2
+VAR
+    count:=1;
+    n:="assuming that the words are separated by a single space";
+    i:INTEGER;
+BEGIN
+    FOR i FROM 0 TO max length(n) step  DO
+        IF (i=" ") THEN
+            count:=count+1;
+        END_IF
+    END_FOR i FROM
+    Write(count)
+END

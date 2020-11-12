@@ -1,0 +1,23 @@
+ALGORITHM algorithm3
+VAR
+    count:=0;
+    n:STRING;
+    i:CHAR;
+BEGIN
+    Read(n);
+    SWITCH (n) DO
+        case "a" : count:=count+1;
+        case "A" : count:=count+1;
+        case "e" : count:=count+1;
+        case "E" : count:=count+1;
+        case "I" : count:=count+1;
+        case "o" : count:=count+1;
+        case "O" : count:=count+1;
+        case "u" : count:=count+1;
+        case "U" : count:=count+1;
+        case "y" :count:=count+1;
+        case "Y" : count:=count+1;
+        default : count:=count;
+    END_SWITCH  
+    Write(count);
+END
